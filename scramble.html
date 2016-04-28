@@ -15,8 +15,13 @@
 
         while (playing) {
 
-            var randomWord = WORDS[Math.floor(WORDS.length * Math.random())];
+            var i = Math.floor(WORDS.length * Math.random())
+            var randomWord = WORDS[i];
             console.log(randomWord);
+            console.log(i);    
+
+
+
 
             // Grab the corresponding scrambled word from the SCRAMBLED array
 
